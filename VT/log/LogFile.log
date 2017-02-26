@@ -1,0 +1,32 @@
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](RequestAddCookies.java:122) - CookieSpec selected: default
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](RequestAuthCache.java:76) - Auth cache not set in the context
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](PoolingHttpClientConnectionManager.java:249) - Connection request: [route: {}->http://localhost:30172][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](PoolingHttpClientConnectionManager.java:282) - Connection leased: [id: 0][route: {}->http://localhost:30172][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](MainClientExec.java:234) - Opening connection {}->http://localhost:30172
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](DefaultHttpClientConnectionOperator.java:131) - Connecting to localhost/127.0.0.1:30172
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](DefaultHttpClientConnectionOperator.java:138) - Connection established 127.0.0.1:49435<->127.0.0.1:30172
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:90) - http-outgoing-0: set socket timeout to 10800000
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](MainClientExec.java:255) - Executing request POST /session HTTP/1.1
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](MainClientExec.java:260) - Target auth state: UNCHALLENGED
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](MainClientExec.java:266) - Proxy auth state: UNCHALLENGED
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:135) - http-outgoing-0 >> POST /session HTTP/1.1
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> Content-Length: 122
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> Host: localhost:30172
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_25)
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](LoggingManagedHttpClientConnection.java:138) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "Host: localhost:30172[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_25)[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:72) - http-outgoing-0 >> "[\r][\n]"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:13 ](Wire.java:86) - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:42 ](Wire.java:86) - http-outgoing-0 << "[read] I/O error: Connection reset"
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:42 ](LoggingManagedHttpClientConnection.java:81) - http-outgoing-0: Close connection
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:42 ](LoggingManagedHttpClientConnection.java:98) - http-outgoing-0: Shutdown connection
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:42 ](ConnectionHolder.java:128) - Connection discarded
+DEBUG[Forwarding newSession on session null to remote][ 2016-Nov-27 02:29:42 ](PoolingHttpClientConnectionManager.java:320) - Connection released: [id: 0][route: {}->http://localhost:30172][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
